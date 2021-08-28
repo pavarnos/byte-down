@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" variant="light" class="border-bottom">
-      <b-navbar-brand href="/"><img src="/ByteDownIcon.png" alt="ByteDown Icon" height="40rem" /> ByteDown</b-navbar-brand>
+      <b-navbar-brand href="/"><img src="~static/ByteDownIcon.png" alt="ByteDown Icon" height="40rem" /> ByteDown</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>

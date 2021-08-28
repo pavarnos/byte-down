@@ -35,7 +35,7 @@
       find. It can sometimes be a race, with different groups competing to hack the same piece of software or hardware
       so they can use it for their own purposes.</p>
     <!-- todo famous hacks, cost of hacking, laws -->
-    <img src="/dave.jpg" height="400px">
+    <img src="~static/dave.jpg" height="400px">
     <h2>How do they get in?</h2>
     <p>Software is <em>complicated</em>. There are layers and layers of components that must all
       work together. What looks simple on the outside can be built from hundreds of pieces each built by different

@@ -35,7 +35,7 @@
 export default {
   methods: {
     popoverDonut () {
-      return '<a href="https://www.trendhunter.com/trends/gourmet-donut"><img src="/boss-hog-donut.jpg" alt="Boss Hog" width="250px"></a>'
+      return '<a href="https://www.trendhunter.com/trends/gourmet-donut"><img src="boss-hog-donut.jpg" alt="Boss Hog" width="250px"></a>'
     }
   }
 }
