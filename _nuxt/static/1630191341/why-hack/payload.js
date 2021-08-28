@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/why-hack", {data:[{}],fetch:{},mutations:void 0});
