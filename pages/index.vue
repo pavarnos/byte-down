@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img src="/ByteDownLogo.png" height="200px" alt="ByteDown Logo" class="fa-pull-right pl-5 ml-5"/>
     <h1>
       <font-awesome-icon icon="user-secret"/>
       Hello, World
@@ -9,6 +8,7 @@
       Welcome to your first day at ByteDown security (a totally fake company). Thanks for
       applying for the job as Junior Security Consultant. We are so happy you wanted to join us.
     </p>
+    <img src="/ByteDownLogo.png" height="200px" alt="ByteDown Logo"/>
     <p>
       We are <strong>Ethical Hackers</strong>. We help companies improve their security so that the bad guys don't
       hack them first. Companies pay us to hack them and tell them what we find so they can fix it. We are
