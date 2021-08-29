@@ -1,11 +1,11 @@
 <template>
   <div>
     <b-navbar toggleable="lg" variant="light" class="border-bottom">
-      <b-navbar-brand href="/"><img src="~static/ByteDownIcon.png" alt="ByteDown Icon" height="40rem" /> ByteDown</b-navbar-brand>
+      <b-navbar-brand to="/"><img src="~static/ByteDownIcon.png" alt="ByteDown Icon" height="40rem" /> ByteDown</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/">Re-Start</b-nav-item>
+          <b-nav-item to="/">Re-Start</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

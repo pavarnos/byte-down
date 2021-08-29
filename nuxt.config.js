@@ -32,7 +32,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: '/byte-down/favicon.ico'
       }
     ]
   },

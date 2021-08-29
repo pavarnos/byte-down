@@ -3,7 +3,7 @@
     <h1>Your First Job</h1>
     <p>Today we have a new client: The <strong>Department Of Donuts</strong>, a government department responsible for
       donut research and development, and the National Donut Preference Database.</p>
-    <img src="/DeptOfDonutsLogo.png" alt="Department of Donuts" height="200px">
+    <img src="~static/DeptOfDonutsLogo.png" alt="Department of Donuts" height="200px">
     <p> The National Donut Preference Database is a list of everyone in the country with their name, email address,
       phone number, and favourite donut flavour. This is Sensitive Information and could cause a lot of embarrassment to
       Important People if their secrets ever gets out. What if everybody knew that the Prime Ministers' favourite was
