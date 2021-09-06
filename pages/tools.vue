@@ -132,7 +132,7 @@ export default {
       passwordGuesser: false,
       webScanner: false,
       deviceScanner: false,
-      wifiScanner: false,
+      scanComplete: false,
       networkMapper: false
     }
   },
@@ -153,10 +153,10 @@ export default {
       this.networkMapper = true
     },
     started () {
-      return !this.passwordGuesser && !this.webScanner && !this.deviceScanner && !this.wifiScanner && !this.networkMapper
+      return !this.passwordGuesser && !this.webScanner && !this.deviceScanner && !this.scanComplete && !this.networkMapper
     },
     done () {
-      return this.passwordGuesser && this.webScanner && this.deviceScanner && this.wifiScanner && this.networkMapper
+      return this.passwordGuesser && this.webScanner && this.deviceScanner && this.scanComplete && this.networkMapper
     },
     hide (event) {
       console.log(event)
