@@ -2,11 +2,11 @@
   <div class="col-3 float-right">
     <div class="card">
       <div class="card-header">
-        Toolkit
+        Toolkit <b-link to="/tools" class="float-right"><font-awesome-icon icon="info"/></b-link>
       </div>
       <ul class="list-group list-group-flush">
         <li v-for="(tool, id) in tools" :key="id" :class="'list-group-item ' + (tool.handler ? '' : 'text-muted bg-light')">
-          <b-button :id="id" class="float-right" :variant="tool.handler ? 'success' : 'secondary'"
+          <b-button :id="id" class="float-right ml-5" :variant="tool.handler ? 'success' : 'secondary'"
                     :disabled="!tool.handler" @click="tool.handler"
           >Use
           </b-button>
