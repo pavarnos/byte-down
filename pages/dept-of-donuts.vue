@@ -23,10 +23,7 @@
       <li>We must tell The Dept anything we find afterwards</li>
     </ul>
     <p>
-      Before we start, we are going to need a few tools...
-    </p>
-    <p>
-      <b-link to="/tools" class="btn btn-success btn-lg">Get some Tools</b-link>
+      <b-link to="/digital-physical" class="btn btn-success btn-lg">Start</b-link>
     </p>
   </div>
 </template>

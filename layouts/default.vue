@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="light" class="border-bottom">
+    <b-navbar toggleable="lg" variant="light" class="border-bottom mb-3">
       <b-navbar-brand to="/"><img src="~static/ByteDownIcon.png" alt="ByteDown Icon" height="40rem" /> ByteDown</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
