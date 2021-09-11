@@ -38,7 +38,7 @@
     <img src="~static/dave.jpg" height="400px">
     <h2>How do they get in?</h2>
     <p>Software is <em>complicated</em>. There are layers and layers of components that must all
-      work together. What looks simple on the outside can be built from hundreds of pieces each built by different
+      work together. What looks simple on the outside can be made from hundreds of pieces each built by different
       people, and usually relies on a complicated collection of other systems to make it go. New versions are released
       all the time. It is easy to make a mistake, and it is hard to keep up with the pace of change.</p>
     <p>A security hole in a piece of software or hardware is called <strong>Vulnerability</strong>. It may be very
@@ -56,12 +56,35 @@
       vulnerability in a way that allows you do to
       something that should not be possible. Sometimes exploits are <em>Chained</em> together: you use one to make a
       tiny hole, the next you put in that hole to make it wider, the next to insert something that should not be there,
-      the next to give you full access to the system.</p>
+      the next to give you full access to the system so you can do whatever you want.</p>
     <p>A <strong>Zero Day</strong> is an exploit that is being actively used to hack people or systems. You may not know
       you were hacked for months or years if someone quietly and carefully uses a Zero Day exploit to get access. They
       can stay quiet and look around, copy your data or watch what you are doing for almost as long as they like.</p>
-    <p>
-      <b-link to="/" class="btn btn-success btn-lg">Back</b-link>
-    </p>
+    <h2>How do I stay safe from hackers?</h2>
+    <p>A few simple things will help a lot</p>
+    <ul>
+      <li>Use a long strong unique password for everything. Use a Password Wallet to store them all, and have a good
+        (but easy to ype and memorable) password for that. Never tell anyone else your password for anything: don't
+        email it or allow anyone else to use it.
+      </li>
+      <li>Turn on two factor authentication for all services that support it. Avoid SMS / TXT versions because hackers
+        can swap your SIM or get in to the mobile network to steal your code. Use App based two factor.
+      </li>
+      <li>Keep software up to date. All of it. Not just your phone and laptop. Your wifi router, the modem from your
+        internet service provider, printers, anything connected to the network.
+      </li>
+      <li>When you get a new device, read the manual. Harden it by changing default passwords, turn off unneeded
+        features. Google for security tips for your laptop, phone, smart watch.
+      </li>
+      <li>Avoid IoT devices like internet connected fridges, door bells, cameras, baby monitors, smart TVs.... They are
+        often poorly designed and rarely updated. An easy entry point for hackers. If you know a bit about network
+        security you can make these safer to use by isolating them on their own subnet and preventing them from
+        accessing the internet
+      </li>
+      <li>Be savvy: don't click links or open emailed documents unless you trust the source and were expecting them. If
+        unsure, upload the file to Google Drive and view it there
+      </li>
+    </ul>
+    <BackButton />
   </div>
 </template>
