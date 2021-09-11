@@ -22,7 +22,7 @@
     </p>
     <p>Let's meet our first client...</p>
     <p>
-      <b-link to="/dept-of-donuts" class="btn btn-success btn-lg">Meet Client</b-link>
+      <NextButton to="/dept-of-donuts">Meet Client</NextButton>
     </p>
   </div>
 </template>

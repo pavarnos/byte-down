@@ -10,20 +10,20 @@
     <h2>Dumpster Dive</h2>
     <p>Some companies are not very careful about what they throw out. We could have a look in their skip bin one evening
       to see if there is anything useful we could learn.</p>
-    <p><b-link to="/physical/dumpster-dive" class="btn btn-success btn-lg">Dumpster Dive</b-link></p>
+    <p><NextButton to="/physical/dumpster-dive">Dumpster Dive</NextButton></p>
 
     <h2>War Driving</h2>
     <p><a href="https://en.wikipedia.org/wiki/Wardriving">War Driving</a> is where you go past the building in a car or
       on foot or by bike. You have a laptop or smartphone with software on it that looks for WiFi networks that we
       might be able to probe.</p>
-    <p><b-link to="/physical/war-drive" class="btn btn-success btn-lg">War Drive</b-link></p>
+    <p><NextButton to="/physical/war-drive">War Drive</NextButton></p>
 
     <h2>Factory Fixer</h2>
     <p>The factory has a gate that is open during the day. There is a delivery dock you can see from the street. A
       friend has an electrical business. We could ask if he could pretend to be on a job to fix a problem in the
       factory, and take us with him so we could look around. Maybe we could plug a device into an empty network port
       while no one is looking?</p>
-    <p><b-link to="/physical/factory-fix" class="btn btn-success btn-lg">Visit the Factory</b-link></p>
+    <p><NextButton to="/physical/factory-fix">Visit the Factory</NextButton></p>
 
     <h2>Tech Support</h2>
     <p>A common trick used by hackers is to pretend to be an external tech support company. You walk in to the building
@@ -31,6 +31,8 @@
       cabinet (or something). There is almost always a broken printer in the building somewhere. We don't know how the
       IT department actually works: do they do it all themselves maybe? This is a risky approach, but might work if all
       the others do not.</p>
-    <p><b-link to="/physical/tech-support" class="btn btn-success btn-lg">Visit the Office</b-link></p>
+    <p><NextButton to="/physical/tech-support">Visit the Office</NextButton></p>
+
+    <BackButton />
   </div>
 </template>

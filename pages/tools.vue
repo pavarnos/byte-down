@@ -122,6 +122,7 @@
     <!--    <div v-else><p class="text-muted">When you have explored all the tools, we can start using them for The Department-->
     <!--      of Donuts</p>-->
     <!--    </div>-->
+    <BackButton />
   </div>
 </template>
 

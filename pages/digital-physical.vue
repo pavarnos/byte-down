@@ -11,8 +11,9 @@
       systems or alarms or other things connected top the internet that shouldn't be. We could also research them on
       social media, or try some stuff via email.</p>
     <p>
-      <b-link to="/digital" class="btn btn-success btn-lg">Digital Scan</b-link>
-      <b-link to="/physical" class="btn btn-success btn-lg">Physical Scan</b-link>
+      <NextButton to="/digital">Digital Scan</NextButton>
+      <NextButton to="/physical">Physical Scan</NextButton>
     </p>
+    <BackButton />
   </div>
 </template>

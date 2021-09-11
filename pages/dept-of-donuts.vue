@@ -18,13 +18,15 @@
     <p>The rules are simple:</p>
     <ul>
       <li>We can try anything we want</li>
-      <li>Don't break anything: no permanent damage to software or hardware</li>
+      <li>Don't break anything: no permanent damage to software or hardware, stay legal</li>
       <li>Be quiet and careful: The Dept boss knows we are hacking, but the staff don't</li>
+      <li>Being sneaky is OK. Being evil is not OK: it's a fine line</li>
       <li>We must tell The Dept anything we find afterwards</li>
     </ul>
     <p>
-      <b-link to="/digital-physical" class="btn btn-success btn-lg">Start</b-link>
+      <NextButton to="/digital-physical">Start</NextButton>
     </p>
+    <BackButton />
   </div>
 </template>
 

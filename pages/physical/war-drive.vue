@@ -22,22 +22,25 @@
       <h2>Crack the Password</h2>
       <p>We could try using our Password Guesser tools to see if they used an obvious password on one of their networks.
         It takes a while to run though. We might raise suspicion by staying in the car too long.</p>
-      <p><b-link to="/physical/crack-wifi" class="btn btn-success btn-lg">Crack Wifi Password</b-link></p>
+      <p><NextButton to="/physical/crack-wifi">Crack Wifi Password</NextButton></p>
 
       <h2>Cafe Man In the Middle</h2>
       <p>Maybe some of the staff go to the cafe for lunch, or take a
         break there and catch up on some work when the office is noisy. Its not difficult to set up a fake wifi network
         to that pretends to be the cafe free wifi or the office wifi. Maybe if we go sit there for half a day we could
-        find something interesting.</p>
-      <p><b-link to="/physical/cafe" class="btn btn-success btn-lg">Visit Cafe</b-link></p>
+        find something interesting. The donuts in the cafe look pretty good...</p>
+      <p><NextButton to="/physical/cafe">Visit Cafe</NextButton></p>
 
       <h2>Courier Delivery</h2>
       <p>You saw a courier drop off a package in the office while the scan was running. We could deliver a package of
         our own and &quot;accidentally&quot; drop a USB key with some of our tools on it in the reception area. Maybe
         someone will pick it up and put it in their computer to see whose it is?</p>
-      <p><b-link to="/physical/courier-driver" class="btn btn-success btn-lg mb-5">Courier Delivery</b-link></p>
+      <p><NextButton to="/physical/courier-driver">Courier Delivery</NextButton></p>
 
     </div>
+
+    <BackButton />
+
   </div>
 </template>
 
