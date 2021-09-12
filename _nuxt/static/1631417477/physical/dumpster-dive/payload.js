@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/physical/dumpster-dive", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/physical/war-drive", {data:[{}],fetch:{},mutations:void 0});

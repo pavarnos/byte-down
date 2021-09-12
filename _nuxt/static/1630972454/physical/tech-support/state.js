@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fbyte-down\u002F_nuxt\u002Fstatic\u002F1630972454",layout:"default",error:{statusCode:404,path:a,message:"This page could not be found"},serverRendered:false,routePath:a,config:{_app:{basePath:"\u002Fbyte-down\u002F",assetsPath:"\u002Fbyte-down\u002F_nuxt\u002F",cdnURL:null}}}}("\u002Fphysical\u002Ftech-support"));
