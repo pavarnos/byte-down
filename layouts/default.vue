@@ -7,6 +7,14 @@
         <b-navbar-nav>
           <b-nav-item to="/">Re-Start</b-nav-item>
         </b-navbar-nav>
+        <b-navbar-nav class="ml-auto" v-if="holes.length > 0">
+          <b-nav-item to="/holes">
+            <template v-for="hole in holes">
+              <img src="~static/DeptIcon.png" :alt="hole" :title="hole" height="40rem">
+            </template>
+            {{ holes.length }} Hole{{ holes.length === 1 ? '' : 's'}} Found
+          </b-nav-item>
+        </b-navbar-nav>
       </b-collapse>
     </b-navbar>
     <div class="container-fluid">
@@ -14,3 +22,13 @@
     </div>
   </div>
 </template>
+
+<script type="ts">
+export default {
+  computed: {
+    holes () {
+      return this.$store.state.holes
+    }
+  }
+}
+</script>
