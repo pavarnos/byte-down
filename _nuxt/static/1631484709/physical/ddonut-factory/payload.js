@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/physical/ddonut-factory", {data:[{}],fetch:{},mutations:[]});

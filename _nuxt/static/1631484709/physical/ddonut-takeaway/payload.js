@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/physical/ddonut-takeaway", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/physical/fake-delivery-wait", {data:[{}],fetch:{},mutations:[]});
