@@ -14,7 +14,7 @@
     <p>After a smelly 15 minutes you realise that The Dept must use a professional document destruction service for
       their old office paper work. This is something they are doing right. Add a note to your report to congratulate
       them.</p>
-    <p>Lets go home, have a shower and try something else.</p>
+    <p>Go home, have a quick shower, and you should be back in the office in time to start the day as normal.</p>
     <BackButton />
   </div>
 </template>

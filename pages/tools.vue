@@ -114,15 +114,12 @@
         any version numbers. We can use this detail for our Device Scanner to help it dig in and find interesting
         holes.</p>
     </div>
-    <!--    <div v-if="done()">-->
-    <!--      <hr>-->
-    <!--      <p>Great! Lets go and use these tools to find some holes!</p>-->
-    <!--      <b-link to="/digital-physical" class="btn btn-success btn-lg">Continue</b-link>-->
-    <!--    </div>-->
-    <!--    <div v-else><p class="text-muted">When you have explored all the tools, we can start using them for The Department-->
-    <!--      of Donuts</p>-->
-    <!--    </div>-->
-    <BackButton />
+    <div v-if="done()">
+      <hr>
+      <p>Well done! You have explored all the tools in your tool kit. Click the Back button below: Lets go and use these
+        tools to find some holes!</p>
+    </div>
+    <BackButton/>
   </div>
 </template>
 
@@ -133,7 +130,7 @@ export default {
       passwordGuesser: false,
       webScanner: false,
       deviceScanner: false,
-      scanComplete: false,
+      wifiScanner: false,
       networkMapper: false
     }
   },
@@ -154,13 +151,10 @@ export default {
       this.networkMapper = true
     },
     started () {
-      return !this.passwordGuesser && !this.webScanner && !this.deviceScanner && !this.scanComplete && !this.networkMapper
+      return !this.passwordGuesser && !this.webScanner && !this.deviceScanner && !this.wifiScanner && !this.networkMapper
     },
     done () {
-      return this.passwordGuesser && this.webScanner && this.deviceScanner && this.scanComplete && this.networkMapper
-    },
-    hide (event) {
-      console.log(event)
+      return this.passwordGuesser && this.webScanner && this.deviceScanner && this.wifiScanner && this.networkMapper
     }
   }
 }
