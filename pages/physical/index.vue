@@ -36,9 +36,9 @@
     <h2>Tech Support</h2>
     <p>A common trick used by hackers is to pretend to be an external tech support company. You walk in to the building
       with a bag of tools and tell reception you have come to fix the broken printer or reconfigure the networking
-      cabinet (or something). There is almost always a broken printer in the building somewhere. We don't know how the
-      IT department actually works: do they do it all themselves? This is a risky approach, but might work if all
-      the others do not.</p>
+      cabinet (or something). There is almost always a broken printer in the building somewhere. In our case there is
+      some risk. We don't know how the IT people at The Dept do things: do they do it all themselves? This approach
+      might work if all the others do not.</p>
     <p>
       <NextButton to="/physical/tech-support">Visit the Office</NextButton>
     </p>

@@ -13,7 +13,7 @@
     </p>
     <p>The Department Of Donuts ("The Dept" for short) has hired us to check that their systems are secure. It is very
       important to The Dept that their database is well protected behind many layers of security.</p>
-    <p>But their security is <em>terrible</em>. These guys are <em>full</em> of holes, just like their donuts. It is our
+    <p>But their security is <em>terrible</em>. It is <em>full</em> of holes, just like their donuts. It is our
       job to find the holes so they can fix them.</p>
     <p>The rules are simple:</p>
     <ul>
