@@ -13,7 +13,7 @@
           and special characters), but we are in! Configure your laptop to connect to the network and lets see what
           devices are connected...</p>
         <p>
-          <NextButton to="/network">Scan the ddonut-dinein Network</NextButton>
+          <NextButton to="/network">Explore the ddonut-dinein Network</NextButton>
         </p>
       </template>
     </RunScan>

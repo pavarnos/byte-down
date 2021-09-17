@@ -4,7 +4,7 @@
       <b-progress :max="max" height="2rem" v-observe-visibility="onShow" class="mb-3">
         <b-progress-bar :value="progress">
           <slot v-if="scanning">Scanning...</slot>
-          <span v-else>Complete</span>
+          <span v-else>{{ name }} Complete</span>
         </b-progress-bar>
       </b-progress>
       <slot name="during" v-if="scanning"></slot>
@@ -27,7 +27,7 @@ export default {
     },
     name: {
       type: String,
-      default: 'scan'
+      default: 'Scan'
     },
     max: {
       type: Number,

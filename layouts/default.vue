@@ -13,7 +13,7 @@
               <img src="~static/DeptIcon.png" :alt="hole" :title="hole" height="40rem">
             </template>
             <template v-if="holes.length > 0">
-              {{ holes.length }} Hole{{ holes.length === 1 ? '' : 's'}} Found
+              {{ holes.length }} Hole{{ holes.length === 1 ? '' : 's'}} Found.
             </template>
             <template v-if="notes.length > 0">
               {{ notes.length }} Note{{ notes.length === 1 ? '' : 's'}}

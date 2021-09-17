@@ -30,7 +30,7 @@
           us full admin rights. Now we can do anything we want on that PC. Lets take a look around to see what else is
           on the network.</p>
         <p>
-          <NextButton to="/network">Scan Network</NextButton>
+          <NextButton to="/network">Explore Network</NextButton>
         </p>
       </template>
     </RunScan>

@@ -36,7 +36,7 @@ export default {
         },
         DeviceScanner: {
           title: 'Device Scanner',
-          description: 'Scan a file server, printer or IoT device for vulnerabilities',
+          description: 'Scan a server, printer or IoT device for vulnerabilities',
           details: 'port scan, unpatched operating system or firmware, vulnerable apps',
           handler: this.onDeviceScanner
         },
