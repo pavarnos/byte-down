@@ -11,8 +11,8 @@
         <p>The network mapper returns a list of about 30 devices.
         </p>
         <ul>
-          <li>Some could be security cameras, which are usually very poorly secured and rarely updated. It is sometimes
-            fun to hack these, but watching factory equipment sounds a bit boring
+          <li>Some could be security cameras, which are usually very poorly secured and rarely updated. It is
+            fun to hack these, but watching donuts go by on a conveyor belt will just make you drool
           </li>
           <li>Most of the rest just have brief abbreviations and numbers. At a guess they are monitoring or control
             devices attached directly to machines.

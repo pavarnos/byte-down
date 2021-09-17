@@ -63,28 +63,28 @@
     <h2>How do I stay safe from hackers?</h2>
     <p>A few simple things will help a lot</p>
     <ul>
-      <li>Use a long strong unique password for everything. Use a Password Wallet to store them all, and have a good
-        (but easy to ype and memorable) password for that. Never tell anyone else your password for anything: don't
-        email it or allow anyone else to use it.
+      <li>Use a long <strong>strong unique password</strong> for every different thing you log in to. Use a Password
+        Wallet to store them all, and have a good (but easy to ype and memorable) password for that. Never tell anyone
+        else your password for anything: don't email it or allow anyone else to use it.
       </li>
-      <li>Turn on two factor authentication for all services that support it. Avoid SMS / TXT versions because hackers
-        can swap your SIM or get in to the mobile network to steal your code. Use App based two factor.
+      <li>Turn on <strong>two factor authentication</strong> for all services that support it. Avoid SMS / TXT versions
+        because hackers can swap your SIM or get in to the mobile network to steal your code. Use App based two factor.
       </li>
-      <li>Keep software up to date. All of it. Not just your phone and laptop. Your wifi router, the modem from your
-        internet service provider, printers, anything connected to the network.
+      <li>Keep <strong>software up to date</strong>. All of it. Not just your phone and laptop. Your wifi router, the
+        modem from your internet service provider, printers, anything connected to the network.
       </li>
-      <li>When you get a new device, read the manual. Harden it by changing default passwords, turn off unneeded
-        features. Google for security tips for your laptop, phone, smart watch.
+      <li>When you get a new device, read the manual. <strong>Harden each device</strong> by changing default passwords,
+        turn off unneeded features. Google for security tips for your laptop, phone, smart watch.
       </li>
       <li>Avoid IoT devices like internet connected fridges, door bells, cameras, baby monitors, smart TVs.... They are
         often poorly designed and rarely updated. An easy entry point for hackers. If you know a bit about network
         security you can make these safer to use by isolating them on their own subnet and preventing them from
         accessing the internet
       </li>
-      <li>Be savvy: don't click links or open emailed documents unless you trust the source and were expecting them. If
-        unsure, upload the file to Google Drive and view it there
+      <li>Avoid phishing. Don't click links or open emailed documents unless you trust the source and were expecting
+        them. If unsure, upload the file to Google Drive and view it there
       </li>
     </ul>
-    <BackButton />
+    <BackButton/>
   </div>
 </template>

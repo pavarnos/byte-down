@@ -9,9 +9,10 @@
       </template>
       <template v-slot:after>
         <HoleFound name="Factory Security Cameras"></HoleFound>
-        <p>That was easy. Now you can watch donuts being made. Does it make you feel hungry?</p>
+        <p>That was easy. This camera manufacturer is famous for using admin and admin as the username and password. A
+          trivial hack. Now you can watch donuts being made all day long.</p>
         <p><img src="~static/donut_factory_line.jpg" alt="Donuts in progress" width="50%"></p>
-        <p>Lets stop playing around and get back to work...</p>
+        <p>It is mesmerising. You need to snap out of it and get back to work...</p>
       </template>
     </RunScan>
     <BackButton/>
