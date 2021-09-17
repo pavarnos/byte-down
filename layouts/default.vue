@@ -7,12 +7,17 @@
         <b-navbar-nav>
           <b-nav-item to="/">Re-Start</b-nav-item>
         </b-navbar-nav>
-        <b-navbar-nav class="ml-auto" v-if="holes.length > 0">
+        <b-navbar-nav class="ml-auto" v-if="holes.length > 0 || notes.length > 0">
           <b-nav-item to="/holes">
             <template v-for="hole in holes">
               <img src="~static/DeptIcon.png" :alt="hole" :title="hole" height="40rem">
             </template>
-            {{ holes.length }} Hole{{ holes.length === 1 ? '' : 's'}} Found
+            <template v-if="holes.length > 0">
+              {{ holes.length }} Hole{{ holes.length === 1 ? '' : 's'}} Found
+            </template>
+            <template v-if="notes.length > 0">
+              {{ notes.length }} Note{{ notes.length === 1 ? '' : 's'}}
+            </template>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -28,6 +33,9 @@ export default {
   computed: {
     holes () {
       return this.$store.state.holes
+    },
+    notes () {
+      return this.$store.state.notes
     }
   }
 }

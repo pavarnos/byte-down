@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     onShow () {
-      this.$store.commit('add', this.name);
+      this.$store.commit('addHole', this.name);
     },
   },
 }
