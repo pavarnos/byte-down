@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/digital/web-server", {data:[{}],fetch:{},mutations:[]});
