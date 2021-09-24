@@ -24,7 +24,10 @@
       </li>
       <li><strong>Individuals</strong> hack for many reasons: they are bored, they like to see stuff burn, they have
         something to prove or want to be famous, they don't like you for some reason. Or sometimes they are just
-        exploring: they are curious and like to know how stuff works by seeing how stuff breaks.
+        exploring: they are curious and like to know how stuff works by seeing how stuff breaks. You are just the
+        unlucky person who got in the way. A few people like to build up collections of hacked devices
+        (<strong>botnets</strong>) and use them for mining crypto currency or making denial lof service attacks. They
+        make money by renting their botnet out to other people.
       </li>
     </ul>
     <p>It is like a cloud of mosquitoes outside your tent when you are camping. There are thousands all tapping and
@@ -57,9 +60,10 @@
       something that should not be possible. Sometimes exploits are <em>Chained</em> together: you use one to make a
       tiny hole, the next you put in that hole to make it wider, the next to insert something that should not be there,
       the next to give you full access to the system so you can do whatever you want.</p>
-    <p>A <strong>Zero Day</strong> is an exploit that is being actively used to hack people or systems. You may not know
-      you were hacked for months or years if someone quietly and carefully uses a Zero Day exploit to get access. They
-      can stay quiet and look around, copy your data or watch what you are doing for almost as long as they like.</p>
+    <p>A <strong>Zero Day</strong> is an exploit that is being actively used to hack people or systems. The manufacture
+      or supplier is not yet aware of it or has not released a fix. You may not know you were hacked for months or years
+      if someone quietly and carefully uses a Zero Day exploit to get access to your systems. They can stay quiet and
+      look around, copy your data or watch what you are doing for as long as they like.</p>
     <h2>How do I stay safe from hackers?</h2>
     <p>A few simple things will help a lot</p>
     <ul>

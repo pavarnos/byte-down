@@ -26,7 +26,8 @@
       things we could try just now:</p>
     <ul>
       <li>The VPN might have a weak username and password. We could establish our own connection to the VPN and try to
-        guess it. This might take a while, but... is that name badges embroidered on the overalls?
+        guess it. This might take a while, but... is that name badges embroidered on the overalls? You could put those
+        names into the password guesser and see it helps.
       </li>
       <li>The VPN server itself may have a weakness: known bugs or out of date software.</li>
       <li>Their laptop is on the same network as us, so we could see if we can hack in to it. Then we can
