@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/network/ransomware", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/network/file-server", {data:[{}],fetch:{},mutations:[]});
