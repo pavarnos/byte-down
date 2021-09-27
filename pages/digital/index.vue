@@ -13,7 +13,8 @@
 
     <h2>Analyse Domain Name</h2>
     <p>The <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a> converts a human-friendly
-      web site name like <em>donuts.govt.nz</em> into a computer-friendly series of numbers that tells systems how to talk to
+      web site name like <em>donuts.govt.nz</em> into a computer-friendly series of numbers that tells systems how to
+      talk to
       each other. Sometimes there is a lot if useful information in a DNS record.</p>
     <p>
       <NextButton to="/digital/dns">Scan the Domain</NextButton>
@@ -28,26 +29,7 @@
 
     <h2>Phishing Attack</h2>
     <p><a href="https://en.wikipedia.org/wiki/Phishing">Phishing</a> is where you send a fake message that looks
-      important. Popular tricks are:</p>
-    <ul>
-      <li>Send a poisoned document that has malware attached. When the person opens the email, they get a virus that
-        gives you access to their computer.
-      </li>
-      <li>Send an email that tricks the person into visiting a fake web site.
-        <ul>
-          <li> You might pretend that the email is
-            from the IT Dept who have locked their account and want them to enter their password to unlock it (which
-            lets
-            you steal their password).
-          </li>
-          <li>Or you could pretend that a package cannot be delivered, so the person should click a
-            link to track it and ask the courier company to try delivering it again. When they visit the web site, they
-            get
-            a virus that gives you access.
-          </li>
-        </ul>
-      </li>
-    </ul>
+      important to try and trick someone into clicking a link or opening a document that infects their computer.</p>
     <p>
       <NextButton to="/digital/phishing">Go Phishing</NextButton>
     </p>

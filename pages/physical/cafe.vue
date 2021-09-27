@@ -1,8 +1,6 @@
 <template>
   <div>
-    <ToolKit :onPasswordGuesser="() => this.passwordScanning = true"
-             :onDeviceScanner="() => this.deviceScanning = true"
-    />
+    <ToolKit :onDeviceScanner="() => this.scanning = true"/>
     <h1>Cafe Man in the Middle</h1>
     <p>It is mid morning when you arrive at the cafe. It is not too busy, so you easily get a seat against the wall near
       a power socket where no one can see your laptop screen. You order a coffee and one of those tasty looking donuts
@@ -22,49 +20,31 @@
       discussion that has obviously been going for a while.</p>
     <p>Your monitoring software flags an interesting connection: someone is connecting to a VPN (Virtual Private
       Network) that looks like it belongs to The Department. Maybe it is the people in overalls working on the factory
-      control systems? You couldn't see the VPN username and password because it was encrypted, but there are a few
-      things we could try just now:</p>
-    <ul>
-      <li>The VPN might have a weak username and password. We could establish our own connection to the VPN and try to
-        guess it. This might take a while, but... is that name badges embroidered on the overalls? You could put those
-        names into the password guesser and see it helps.
-      </li>
-      <li>The VPN server itself may have a weakness: known bugs or out of date software.</li>
-      <li>Their laptop is on the same network as us, so we could see if we can hack in to it. Then we can
-        see what they are doing now, and ride their laptop back in to the factory. This is a bit more challenging,
-        because the VPN creates a secure virtual tunnel for all the data between their laptop and the factory. So we'd
-        have to find a hole in the layer below: the WiFi software of that laptop. A bit too tricky for today...
-      </li>
-    </ul>
-    <RunScan :started="passwordScanning" name="Password Scan">
+      control systems? You couldn't see the VPN username and password because it was encrypted, but you could try a
+      couple of things from here:</p>
+    <h2>Hack Laptop</h2>
+    <p>Their laptop is on the same network as us, so we could see if we can hack in to it. Then we can
+      see what they are doing right now, and also ride their laptop back in to the factory. This is a bit more
+      challenging, because their VPN connection creates a secure virtual tunnel for all the data between their laptop
+      and the factory. So we'd have to find a hole in the layer below: the WiFi software of that laptop
+    </p>
+    <RunScan :started="scanning">
       <template v-slot:before>
-        <p class="text-muted">Use the Password Guesser to try a few VPN usernames and passwords</p>
-      </template>
-      <template v-slot:during>
-        <p>We don't want to flood the server or it will slow down and someone will notice. Lets just try a few obvious
-          combinations of first name and last name...</p>
+        <p class="text-muted">Try the Device Scanner</p>
       </template>
       <template v-slot:after>
-        <p>No luck. You cautious approach was a good idea for now. You have a lot more information than before, so
-          maybe could try again later if needed
-        </p>
+        <p>No luck. Worth a try though.</p>
       </template>
     </RunScan>
-    <RunScan :started="deviceScanning" name="Device Scan">
-      <template v-slot:before>
-        <p class="text-muted">Use the Device Scanner to probe the VPN server for weaknesses</p>
-      </template>
-      <template v-slot:after>
-        <HoleFound name="Factory VPN Server"/>
-        <p>The VPN software was way out of date. There were a couple of different ways in: a hard coded password
-          from the VPN manufacturer that was published on the web a few months ago;
-          and a flaw in the software that gave us admin access to the server itself.</p>
-        <p>I think you just earned another donut. You take a quick trip up to the cafe counter to buy one, then...</p>
-        <p>
-          <NextButton to="/network/factory">Explore Factory Network</NextButton>
-        </p>
-      </template>
-    </RunScan>
+    <h2>Hack VPN</h2>
+    <p>A virtual private network allows the laptop to appear on the factory network as if it was physically connected to
+      the real network in the building. VPNs are hard to get right. Maybe we can find a weakness?</p>
+    <p>Is that name badges embroidered on their overalls? You could put those names into the password guesser and see it
+      helps. You walk across the cafe to &quot;get a glass of water&quot; and go past their table so you can read the
+      names...</p>
+    <p>
+      <NextButton to="/network/vpn">Try the VPN</NextButton>
+    </p>
     <BackButton/>
   </div>
 </template>
@@ -73,8 +53,7 @@
 <script type="ts">
 export default {
   data: () => ({
-    passwordScanning: false,
-    deviceScanning: false
+    scanning: false,
   })
 }
 </script>

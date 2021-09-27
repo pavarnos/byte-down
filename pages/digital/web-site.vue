@@ -4,7 +4,8 @@
     <h1>Web Site</h1>
     <p>You visit <em>donuts.govt.nz</em> on your web browser. Looks pretty boring: annual report blah blah governance
       structures blah strategic initiative blah blah blah board members yawn... Oh wait. There are some pictures of
-      donuts! They do look good!</p>
+      donuts. They do look good! Mmmmm!</p>
+    <p>Focus! You remind you self to focus on the job...</p>
     <p>Seems like there is not much of interest on the publicly visible part of the web site itself. Time go get out
       some tools and dig around inside.</p>
     <p>A web site is usually made of three parts:</p>
