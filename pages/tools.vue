@@ -43,50 +43,42 @@
         public internet, so they can be accessed from anywhere in the world. Which means that a hole could be used by
         anyone.</p>
       <p>Our Web Scanner will help you find common weaknesses in common web software.</p>
-      <div class="accordion" role="tablist">
-        <b-card no-body class="mb-3">
-          <b-card-header header-tag="header" role="tab" v-b-toggle.accordion-1>Technical Details</b-card-header>
-          <b-collapse id="accordion-1" role="tabpanel">
-            <b-card-body>
-              <b-card-text><p>A web site usually has many parts</p>
-                <ul>
-                  <li>A <strong>Content Management System</strong>: which helps the web site owner change the txt on the
-                    pages, update
-                    their product list, manage customer orders and more. It is responsible for formatting each web page
-                    so it looks nice and works properly.
-                  </li>
-                  <li>Programming <strong>Language</strong>: many different programming languages are used to build the
-                    web. Popular ones are
-                    JavaScript, Python, and PHP
-                  </li>
-                  <li>A <strong>Database</strong>: to store the pages, products, orders. Popular databases are MySQL,
-                    PostgresQL,
-                    MongoDB
-                  </li>
-                  <li><strong>Web Server</strong>: listens to incoming requests for web pages, sends them to the content
-                    management
-                    software, and returns the rendered page back to your computer
-                  </li>
-                  <li><strong>Operating System</strong>: your computer may run Windows or MacOS. This provides the basic
-                    services that
-                    lets your computer find files on the hard drive, connect to the network and more. A web server
-                    usually runs Linux...
-                  </li>
-                  <li>...or it may be &quot;serverless&quot;, where there are lots of tiny tools all
-                    working together to build the complete system
-                  </li>
-                  <li>Many other supporting tools like caches (redis, varnish), search tools (eg Elastic search),
-                    proxies, load balancers all have potential holes in the software itself or in the way they are
-                    configured or connected together
-                  </li>
-                </ul>
-                <p>This web site is built with <a href="https://nuxtjs.org">nuxtjs</a>, and is hosted as static web
-                  pages on <a href="https://github.com/pavarnos/byte-down">github</a>.</p>
-              </b-card-text>
-            </b-card-body>
-          </b-collapse>
-        </b-card>
-      </div>
+      <ExtraDetail>
+        <p>A web site usually has many parts</p>
+        <ul>
+          <li>A <strong>Content Management System</strong>: which helps the web site owner change the txt on the
+            pages, update
+            their product list, manage customer orders and more. It is responsible for formatting each web page
+            so it looks nice and works properly.
+          </li>
+          <li>Programming <strong>Language</strong>: many different programming languages are used to build the
+            web. Popular ones are
+            JavaScript, Python, and PHP
+          </li>
+          <li>A <strong>Database</strong>: to store the pages, products, orders. Popular databases are MySQL,
+            PostgresQL,
+            MongoDB
+          </li>
+          <li><strong>Web Server</strong>: listens to incoming requests for web pages, sends them to the content
+            management
+            software, and returns the rendered page back to your computer
+          </li>
+          <li><strong>Operating System</strong>: your computer may run Windows or MacOS. This provides the basic
+            services that
+            lets your computer find files on the hard drive, connect to the network and more. A web server
+            usually runs Linux...
+          </li>
+          <li>...or it may be &quot;serverless&quot;, where there are lots of tiny tools all
+            working together to build the complete system
+          </li>
+          <li>Many other supporting tools like caches (redis, varnish), search tools (eg Elastic search),
+            proxies, load balancers all have potential holes in the software itself or in the way they are
+            configured or connected together
+          </li>
+        </ul>
+        <p>This web site is built with <a href="https://nuxtjs.org">nuxtjs</a>, and is hosted as static web
+          pages on <a href="https://github.com/pavarnos/byte-down">github</a>.</p>
+      </ExtraDetail>
     </div>
     <div v-if="deviceScanner">
       <h2 @click="() => this.deviceScanner = false">Device Scanner</h2>
@@ -96,8 +88,8 @@
         or elevators, even some types of ceiling light have connected remote controls.</p>
       <p>Often devices like this are installed and forgotten. Their software is never updated even after years of use.
         This is good for us, because the internet has search engines to find them, databases of vulnerabilities with
-        pre-build toolkits to make use of them. Our Device Scanner make it easy for us for this story. But it
-        represents a very large collection of tools that a trained security consultant would research and use
+        pre-build toolkits to make use of them. Our Device Scanner makes it easy for us for this story. But it
+        represents a very large collection of tools that a trained security consultant would study and use
         differently for each job.</p>
     </div>
     <div v-if="wifiScanner">
@@ -110,7 +102,7 @@
     <div v-if="networkMapper">
       <h2 @click="() => this.networkMapper = false">Network Mapper</h2>
       <p>Once we get access to a network, how do we see what is connected to it? Our Network Mapper will scan the local
-        network to see what else it can find. It might report back a list of devices plus the software running on it and
+        network to see what else it can find. It might report back a list of devices plus their operating system and
         any version numbers. We can use this detail for our Device Scanner to help it dig in and find interesting
         holes.</p>
     </div>
