@@ -15,8 +15,7 @@
           </li>
           <li>Or you could pretend that a package cannot be delivered, so the person should click a
             link to track it and ask the courier company to try delivering it again. When they visit the web site, they
-            get
-            a virus that gives you access.
+            get a virus that gives you access.
           </li>
         </ul>
       </li>
@@ -27,6 +26,8 @@
       create a document that looks like it is from a sugar manufacturer in another country, announcing pre-launch
       samples of a new type of sugar that would work really well for donut toppings. Creating a tempting story around
       your document and your email will make it much more likely someone will open it.</p>
+    <p>There are plenty of tools available that can create custom malware for a document that will slip through most
+      email filters. So you use one of those, and attach it to your email.</p>
     <p>
       <NextButton to="/digital/phishing-send">Send Email</NextButton>
     </p>

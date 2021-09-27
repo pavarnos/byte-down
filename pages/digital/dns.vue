@@ -11,11 +11,11 @@
       <NextButton to="/digital/web-site">Browse Web Site</NextButton>
     </p>
 
-    <h2>Mail Server</h2>
-    <p>Almost every organisation sends and receives email. Most email servers are pretty good theses days. It is the
-      human factors that make email an easy entry point.</p>
+    <h2>Email Service</h2>
+    <p>Almost every organisation sends and receives email. Spam prevention is a complex area. Most email servers are
+      pretty good these days. It is the human factors that make email an easy entry point.</p>
     <p>
-      <NextButton to="/digital/mail-server">Scan Mail Server</NextButton>
+      <NextButton to="/digital/email-service">Analyse Mail Services</NextButton>
     </p>
 
     <h2>Staging Server</h2>
