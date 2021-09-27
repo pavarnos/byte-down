@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/digital/dns", {data:[{}],fetch:{},mutations:[]});

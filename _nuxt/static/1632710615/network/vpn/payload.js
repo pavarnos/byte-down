@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/network/vpn", {data:[{}],fetch:{},mutations:[]});

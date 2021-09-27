@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/digital/phishing-send", {data:[{}],fetch:{},mutations:[]});
