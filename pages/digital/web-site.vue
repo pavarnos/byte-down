@@ -43,9 +43,9 @@
       <template v-slot:after>
         <p>The Device Scanner tries a number of different ways to get into the server. No luck this time.</p>
         <p>Some companies use their own servers to host their public web sites. Risky. These can be much easier to get
-          in to because it takes a lot of time keep up with the maintenance, so it doesn't always get done. The company
-          does not have rooms full of smart people available 24/7 to fix new hacks whenever they come out.</p>
-        <p>Looks like this server is run by a separate professional company who do this as their main business. They
+          in to because it takes a lot of time keep up with the maintenance, so it doesn't always get done. A proper web
+          hosting company has rooms full of smart people available 24/7 to fix new hacks whenever they come out.</p>
+        <p>Looks like this server is well run by a professional company who do this as their main business. They
           have invested deeply in security. No holes here that we can use.</p>
       </template>
     </RunScan>

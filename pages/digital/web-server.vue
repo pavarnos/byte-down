@@ -4,7 +4,7 @@
     <p>You look around for a while, trying various tools to</p>
     <ul>
       <li>Get a command line <em>privilege escalation</em>, which is where you switch from an ordinary user who
-        cannot do much (just server web pages), and become a user with administrative rights. Nothing seems to work.
+        cannot do much (just serve web pages), and become a user with administrative rights. Nothing seems to work.
       </li>
       <li>Same for the database. You pull the username and password for the database out of the config file, but even
         when you are logged in to the database server you cannot do anything useful except see the content for the web
