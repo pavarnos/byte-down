@@ -1,8 +1,7 @@
 <template>
   <div>
+    <RightImage src="dumpster.jpg" alt="Dumpster" link="https://unsplash.com/@anniespratt"></RightImage>
     <h1>Dumpster Dive</h1>
-    <a href="https://unsplash.com/@anniespratt" class="float-right">
-      <img src="~static/dumpster.jpg" alt="dumpster" width="400px"></a>
     <p>Early next morning you turn up in some old clothes and walk quietly around the back of the factory. Nobody sees
       you. Ah. There it is. A couple of skip bins that might have something useful inside.</p>
     <p>You open the lid of the first one. It is full of dirty cartons and greasy industrial wrapping. No thanks. Not

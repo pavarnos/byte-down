@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="col-4 float-right"><img src="~static/factory.jpg" alt="Factory" width="100%"></div>
+    <RightImage src="factory.jpg" alt="Factory"></RightImage>
     <h1>Physical</h1>
     <p>You Google for a while to find the address, look at the Street View and some photos of the building. It looks
       like a boring factory with some offices at the front, in a quiet corner of town with other similar buildings
