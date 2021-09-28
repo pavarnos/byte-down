@@ -90,5 +90,9 @@
       </li>
     </ul>
     <BackButton/>
+    <p>
+      <NextButton to="/next-steps">Learn to Hack</NextButton>
+      for a list of ways to learn more about ethical hacking.
+    </p>
   </div>
 </template>

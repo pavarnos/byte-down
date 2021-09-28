@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-4 col-xl-3 float-md-right">
+  <div class="col-md-4 col-xl-3 float-md-right pr-0">
     <div class="card">
       <div class="card-header">
         Toolkit <b-link to="/tools" class="float-right"><font-awesome-icon icon="info"/></b-link>

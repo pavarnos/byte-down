@@ -30,7 +30,7 @@
         </p>
         <p>
           <NextButton to="/next-steps">Next Steps</NextButton>
-          for a list of more ways to learn more about ethical hacking.
+          for a list of ways to learn more about ethical hacking.
         </p>
       </template>
     </RunScan>
