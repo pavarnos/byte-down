@@ -41,7 +41,7 @@
       <dt><a href="https://www.youtube.com/c/lockpickinglawyer">Lock Picking Lawyer</a></dt>
       <dd>Shows how most physical locks are trivially opened</dd>
     </dl>
-    <h2>PodCasts</h2>
+    <h2>Podcasts</h2>
     <dl>
       <dt><a href="https://risky.biz">Risky.biz</a></dt>
       <dd>An entertaining weekly summary of security events around the globe</dd>

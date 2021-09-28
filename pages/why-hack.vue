@@ -26,7 +26,7 @@
         something to prove or want to be famous, they don't like you for some reason. Or sometimes they are just
         exploring: they are curious and like to know how stuff works by seeing how stuff breaks. You are just the
         unlucky person who got in the way. A few people like to build up collections of hacked devices
-        (<strong>botnets</strong>) and use them for mining crypto currency or making denial lof service attacks. They
+        (<strong>botnets</strong>) and use them for mining crypto currency or making denial of service attacks. They
         make money by renting their botnet out to other people.
       </li>
     </ul>
@@ -68,7 +68,7 @@
     <p>A few simple things will help a lot</p>
     <ul>
       <li>Use a long <strong>strong unique password</strong> for every different thing you log in to. Use a Password
-        Wallet to store them all, and have a good (but easy to ype and memorable) password for that. Never tell anyone
+        Wallet to store them all, and have a good (but easy to type and memorable) password for that. Never tell anyone
         else your password for anything: don't email it or allow anyone else to use it.
       </li>
       <li>Turn on <strong>two factor authentication</strong> for all services that support it. Avoid SMS / TXT versions
