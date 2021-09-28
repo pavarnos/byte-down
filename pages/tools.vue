@@ -6,11 +6,13 @@
     <h1>Hacking Tools</h1>
     <p>There are dozens of different tools we can use to find holes in systems. Common types of tools are listed in the
       Toolkit box on the right.</p>
-    <p v-if="started()"><strong>Try it now</strong>: click one of the green Use buttons beside a tool to see what it
+    <p v-if="!started"><strong>Try it now</strong>: click one of the green Use buttons beside a tool to see what it
       does
     </p>
     <div v-if="passwordGuesser">
-      <h2 @click="() => this.passwordGuesser = false">Password Guesser</h2>
+      <h2 @click="() => this.passwordGuesser = false">Password Guesser
+        <font-awesome-icon icon="unlock"/>
+      </h2>
       <p>Did you know that the <a href="https://en.wikipedia.org/wiki/List_of_the_most_common_passwords">most common
         password</a> on the internet is <em>123456</em>? Another very popular one is <em>password</em>, but it is a
         terrible idea to use it because it is so easy to guess. People are often lazy or busy or do not know
@@ -37,7 +39,9 @@
     </div>
     <!--    <div v-else><p class="text-muted">Click the green Use button beside the Password Guesser to learn more about it</p></div>-->
     <div v-if="webScanner">
-      <h2 @click="() => this.webScanner = false">Web Scanner</h2>
+      <h2 @click="() => this.webScanner = false">Web Scanner
+        <font-awesome-icon icon="globe"/>
+      </h2>
       <p>Web sites look simple on the outside, but there is often a lot of software needed to make them work. Anywhere
         there is software, there is an opportunity for us to poke at it to see if there are holes. Web sites are on the
         public internet, so they can be accessed from anywhere in the world. Which means that a hole could be used by
@@ -81,7 +85,9 @@
       </ExtraDetail>
     </div>
     <div v-if="deviceScanner">
-      <h2 @click="() => this.deviceScanner = false">Device Scanner</h2>
+      <h2 @click="() => this.deviceScanner = false">Device Scanner
+        <font-awesome-icon icon="laptop-code"/>
+      </h2>
       <p>Anything connected to the network has software on it that may have holes we can exploit. Computers and laptops
         are easy to see, but there are often many other types of devices you would not normally think of. Printers,
         photocopiers, burglar or fire alarms, POS systems, phone systems, building control systems like air conditioning
@@ -93,22 +99,26 @@
         differently for each job.</p>
     </div>
     <div v-if="wifiScanner">
-      <h2 @click="() => this.wifiScanner = false">WiFi Scanner</h2>
+      <h2 @click="() => this.wifiScanner = false">WiFi Scanner
+        <font-awesome-icon icon="wifi"/>
+      </h2>
       <p>When you click the WiFi icon on your computer, you can see a list of networks nearby. Some of these are more
         secure than others. Any may have out of date software or a weak password that we can use to gain access to the
         network. Once we are in, we can use other tools like the Network Mapper to see what else is connected, then the
         Device Scanner to look for holes in each thing</p>
     </div>
     <div v-if="networkMapper">
-      <h2 @click="() => this.networkMapper = false">Network Mapper</h2>
+      <h2 @click="() => this.networkMapper = false">Network Mapper
+        <font-awesome-icon icon="network-wired"/>
+      </h2>
       <p>Once we get access to a network, how do we see what is connected to it? Our Network Mapper will scan the local
         network to see what else it can find. It might report back a list of devices plus their operating system and
         any version numbers. We can use this detail for our Device Scanner to help it dig in and find interesting
         holes.</p>
     </div>
-    <div v-if="done()">
+    <div v-if="started">
       <hr>
-      <p>Well done! You have explored all the tools in your tool kit. Click the Back button below: Lets go and use these
+      <p>Once you have explored all the tools in your tool kit, click the Back button below. Lets go and use these
         tools to find some holes!</p>
     </div>
     <BackButton/>
@@ -119,6 +129,7 @@
 export default {
   data: function () {
     return {
+      started: false,
       passwordGuesser: false,
       webScanner: false,
       deviceScanner: false,
@@ -128,26 +139,29 @@ export default {
   },
   methods: {
     guessPassword () {
+      this.clear();
       this.passwordGuesser = true
     },
     scanWeb () {
+      this.clear();
       this.webScanner = true
     },
     scanDevice () {
+      this.clear();
       this.deviceScanner = true
     },
     scanWifi () {
+      this.clear();
       this.wifiScanner = true
     },
     mapNet () {
+      this.clear();
       this.networkMapper = true
     },
-    started () {
-      return !this.passwordGuesser && !this.webScanner && !this.deviceScanner && !this.wifiScanner && !this.networkMapper
+    clear () {
+      this.started = true;
+      this.passwordGuesser = this.webScanner = this.deviceScanner = this.wifiScanner = this.networkMapper = false
     },
-    done () {
-      return this.passwordGuesser && this.webScanner && this.deviceScanner && this.wifiScanner && this.networkMapper
-    }
   }
 }
 </script>

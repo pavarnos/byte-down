@@ -1,5 +1,5 @@
 <template>
-  <div class="col-3 float-right">
+  <div class="col-md-4 col-xl-3 float-md-right">
     <div class="card">
       <div class="card-header">
         Toolkit <b-link to="/tools" class="float-right"><font-awesome-icon icon="info"/></b-link>
@@ -10,7 +10,7 @@
                     :disabled="!tool.handler" @click="tool.handler"
           >Use
           </b-button>
-          <strong>{{ tool.title }}</strong><br>
+          <strong>{{ tool.title }}</strong> <font-awesome-icon :icon="tool.icon"/><br>
           <small>{{ tool.description }}</small>
         </li>
       </ul>
@@ -26,29 +26,34 @@ export default {
         PasswordGuesser: {
           title: 'Password Guesser',
           description: 'Attempt to log in by trying lots of different passwords from a database',
-          handler: this.onPasswordGuesser
+          handler: this.onPasswordGuesser,
+          icon: 'unlock'
         },
         WebScanner: {
           title: 'Web Scanner',
           description: 'Scan a public web server for vulnerabilities',
           details: 'port scan, unpatched operating system or web server',
-          handler: this.onWebScanner
+          handler: this.onWebScanner,
+          icon: 'globe'
         },
         DeviceScanner: {
           title: 'Device Scanner',
           description: 'Scan a server, printer or IoT device for vulnerabilities',
           details: 'port scan, unpatched operating system or firmware, vulnerable apps',
-          handler: this.onDeviceScanner
+          handler: this.onDeviceScanner,
+          icon: 'laptop-code'
         },
         WifiScanner: {
           title: 'WiFi Scanner',
           description: 'Look for visible wifi networks',
-          handler: this.onWifiScanner
+          handler: this.onWifiScanner,
+          icon: 'wifi'
         },
         NetworkMapper: {
           title: 'Network Mapper',
           description: 'Scan a network to see what devices are on it',
-          handler: this.onNetworkMapper
+          handler: this.onNetworkMapper,
+          icon: 'network-wired'
         }
       }
     }
