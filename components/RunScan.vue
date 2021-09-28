@@ -31,7 +31,7 @@ export default {
     },
     max: {
       type: Number,
-      default: 10
+      default: 5
     }
   },
   data: function () {
@@ -53,9 +53,10 @@ export default {
         // it has already run: do nothing
         return
       }
+      const max = this.max + Math.ceil(Math.random() * 5);
       const interval = setInterval(function () {
         this.progress++
-        if (this.progress >= this.max) {
+        if (this.progress >= max) {
           clearInterval(interval)
           this.$emit('scan-complete', this.name)
         }
