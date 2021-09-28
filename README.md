@@ -19,12 +19,15 @@ learn something, start again and keep exploring until you find all the holes.
 
 Pull requests and other contributions welcome. There is always new things to learn.
 
+## Thanks to
+
+- The Security Operations Team from [Advantage](https://advantage.nz) for reviewing the material and suggesting
+  improvements
+
 ## Tooling
 
 This is built with [NuxtJS](https://nuxtjs.org), hosted on GitHub pages. GitHub actions update the production version on
 every push.
-
-## Build Setup
 
 ```bash
 # install dependencies
