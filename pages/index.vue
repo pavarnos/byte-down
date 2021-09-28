@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p class="text-muted small float-right">Information for <NuxtLink to="/old-people">Teachers and Parents</NuxtLink></p>
     <h1>
       <font-awesome-icon icon="user-secret"/>
       Hello, World

@@ -22,10 +22,15 @@
           <NuxtLink to="/holes">holes</NuxtLink>
           to discover. You can stop here if you want, or you could see how many more holes you can find (to make your
           report to The Department) even more impressive.
-          Click the Re-Start button below to go back to the beginning and try a different way through.
         </p>
         <p>
           <NextButton to="/">Re-Start</NextButton>
+          to go back to the beginning and try a different way through. The holes you already found will still stick
+          around. Can you find them all?
+        </p>
+        <p>
+          <NextButton to="/next-steps">Next Steps</NextButton>
+          for a list of more ways to learn more about ethical hacking.
         </p>
       </template>
     </RunScan>
