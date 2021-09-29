@@ -56,6 +56,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    'faker-nuxt',
     ['@nuxtjs/fontawesome', { icons: { solid: ['faHome'] } }]
   ],
 
