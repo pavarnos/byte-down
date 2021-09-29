@@ -14,7 +14,8 @@
     </p>
     <p>
       <NextButton to="/">Start Story</NextButton>
-      <NextButton to="/next-steps">More Skills</NextButton>
+      <NextButton to="/next-steps">Learn to Hack</NextButton>
+      <NextButton to="/tools">Toolkit</NextButton>
     </p>
     <BackButton/>
   </div>

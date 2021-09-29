@@ -1,5 +1,6 @@
 <template>
   <div>
+    <RightImage src="code.png" alt="Code"></RightImage>
     <h1>Ransomware</h1>
     <p>You promised not to be evil, but you also want to play a bit...</p>
     <p>You copy a ransomware template from the internet and remove the file encryption and other badness. It is

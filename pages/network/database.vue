@@ -33,6 +33,10 @@
           <NextButton to="/next-steps">Next Steps</NextButton>
           for ways to learn more about ethical hacking.
         </p>
+        <p>
+          <NextButton to="/tools">Toolkit</NextButton>
+          tells you more about the tools you have been using.
+        </p>
       </template>
     </RunScan>
     <BackButton/>

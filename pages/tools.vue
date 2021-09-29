@@ -6,6 +6,23 @@
     <h1>Hacking Tools</h1>
     <p>There are dozens of different tools we can use to find holes in systems. Common types of tools are listed in the
       Toolkit box on the right.</p>
+    <ExtraDetail id="99">
+      <p>There are hundreds of different tools used for different purposes. Some hackers are also talented programmers,
+        so they know how to build their own tools: either custom software for a specific vulnerability or generic tools
+        for a wide range of purposes.</p>
+      <p>The image below shows some of the tools you can use to monitor how well a Linux computer is running, to find
+        bottlenecks and issues. Some of these will give you valuable information about what is running on a system and
+        what you might exploit. Or they can themselves be abused to make an exploit.</p>
+      <p>To keep it simple, to keep the story moving, the tools used in your Toolkit are not named specifically. We just
+        refer to broad classes of tool and leave it to your imagination or to your later research to fill in the
+        details.</p>
+      <p>Sometimes you will see Technical Details boxes like this one, with extra technical information where we thought
+        it would help you understand a little more deeply. These boxes are always optional. There is nothing hidden in
+        them that will help you find the Donut Preferences Database. These boxes are for the curious, for the
+        explorers</p>
+      <p><a href="https://www.brendangregg.com/linuxperf.html">
+        <img src="~static/linuxperf.png" alt="Linux Performance Tools" width="50%"></a></p>
+    </ExtraDetail>
     <p v-if="!started"><strong>Try it now</strong>: click one of the green Use buttons beside a tool to see what it
       does
     </p>
@@ -139,27 +156,27 @@ export default {
   },
   methods: {
     guessPassword () {
-      this.clear();
+      this.clear()
       this.passwordGuesser = true
     },
     scanWeb () {
-      this.clear();
+      this.clear()
       this.webScanner = true
     },
     scanDevice () {
-      this.clear();
+      this.clear()
       this.deviceScanner = true
     },
     scanWifi () {
-      this.clear();
+      this.clear()
       this.wifiScanner = true
     },
     mapNet () {
-      this.clear();
+      this.clear()
       this.networkMapper = true
     },
     clear () {
-      this.started = true;
+      this.started = true
       this.passwordGuesser = this.webScanner = this.deviceScanner = this.wifiScanner = this.networkMapper = false
     },
   }
