@@ -31,7 +31,7 @@ export default {
     },
     max: {
       type: Number,
-      default: 5
+      default: 7
     }
   },
   data: function () {
@@ -60,7 +60,7 @@ export default {
           clearInterval(interval)
           this.$emit('scan-complete', this.name)
         }
-      }.bind(this), this.$nuxt.context.isDev ? 100 : 1000)
+      }.bind(this), this.$nuxt.context.isDev ? 100 : 900)
     },
   },
 }
