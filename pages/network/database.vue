@@ -78,8 +78,8 @@ export default {
   },
   data: function () {
     const database = []
-    const first = new List(['Boss', 'Glazed', 'Minty', 'Mega', 'Flabby', 'Toothsome', 'Lemon', 'Raspberry', 'Serious', 'Chocolate', 'Caramel', 'Junior', 'Bacon', 'Spicy', 'Cheesy', 'Ginger', 'Jelly', 'Marmite', 'Blueberry', 'Teensy', 'Nutty'])
-    const second = new List(['Joe', 'Hog', 'Honker', 'Jamboree', 'Giant', 'Sprinkle', 'Custard', 'Genie', 'Twister', 'Bomb', 'Lifesaver', 'Bathtub', 'Cricket', 'Buffalo', 'Dream', 'Splash', 'Wedgie', 'Coconut', 'Maple', 'Toe-kick', 'Jaw Cracker', 'Power Drill'])
+    const first = new List(['Boss', 'Glazed', 'Minty', 'Mega', 'Flabby', 'Toothsome', 'Lemon', 'Raspberry', 'Serious', 'Chocolate', 'Caramel', 'Junior', 'Bacon', 'Spicy', 'Cheesy', 'Ginger', 'Jelly', 'Marmite', 'Blueberry', 'Teensy', 'Nutty', 'Bleeding'])
+    const second = new List(['Joe', 'Hog', 'Honker', 'Jamboree', 'Giant', 'Sprinkle', 'Custard', 'Genie', 'Twister', 'Bomb', 'Lifesaver', 'Bathtub', 'Cricket', 'Buffalo', 'Dream', 'Splash', 'Wedgie', 'Coconut', 'Maple', 'Toe-kick', 'Jaw Cracker', 'Power Drill', 'Cardiac Criminal'])
     for (let step = 0; step < 60; step++) {
       database.push({
         first_name: this.$faker.name.firstName(),
