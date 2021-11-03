@@ -3,7 +3,7 @@
     <ToolKit :onWifiScanner="() => this.scanning = true"/>
     <h1>War Drive</h1>
     <p>
-      You pick up a company laptop with you hacking tools on it, get in your car and drive to the factory. There are
+      You pick up a company laptop with some hacking tools on it, get in your car and drive to the factory. There are
       lots of cars around, so it seems safe enough to park across the street for a short time. It is also a good chance
       to observe the area to see people going in and out of the building.
     </p>
@@ -15,7 +15,7 @@
         <p>The scan found about 20 wifi networks from different companies in the area. Some of those look
           interesting. We could try using our Password Guesser to see if they used an obvious password on one of
           their networks. It takes a while to run though. We might raise suspicion by staying in the car too long. If
-          you think it is worth the risk, lets try crack the network. Otherwise go back and try something else.</p>
+          you think it is worth the risk, lets try to guess the wifi network password.</p>
         <p>
           <NextButton to="/physical/crack-wifi">Crack Wifi Networks</NextButton>
         </p>
